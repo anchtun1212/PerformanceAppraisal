@@ -18,6 +18,7 @@ public class UserServiceImpl implements UserService {
 	//@Autowired
 	//private PasswordEncoder passwordEncoder;
 
+	@Override
 	public User saveUser(User user) {
 		// to save in secure way
 		//user.setPassword(passwordEncoder.encode(user.getPassword()));
