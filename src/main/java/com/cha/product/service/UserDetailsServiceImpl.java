@@ -1,4 +1,4 @@
-package com.cha.performanceappraisal.service;
+package com.cha.product.service;
 
 import java.util.HashSet;
 import java.util.Objects;
@@ -12,8 +12,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.cha.performanceappraisal.model.User;
-import com.cha.performanceappraisal.repository.UserRepository;
+import com.cha.product.model.User;
+import com.cha.product.repository.UserRepository;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {

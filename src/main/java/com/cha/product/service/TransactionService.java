@@ -1,8 +1,8 @@
-package com.cha.performanceappraisal.service;
+package com.cha.product.service;
 
 import java.util.List;
 
-import com.cha.performanceappraisal.model.Transaction;
+import com.cha.product.model.Transaction;
 
 public interface TransactionService {
 

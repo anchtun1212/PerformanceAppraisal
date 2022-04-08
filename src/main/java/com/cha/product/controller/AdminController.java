@@ -1,4 +1,4 @@
-package com.cha.performanceappraisal.controller;
+package com.cha.product.controller;
 
 import java.util.Objects;
 
@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cha.performanceappraisal.model.Product;
-import com.cha.performanceappraisal.model.StringResponse;
-import com.cha.performanceappraisal.model.User;
-import com.cha.performanceappraisal.service.ProductService;
-import com.cha.performanceappraisal.service.TransactionService;
-import com.cha.performanceappraisal.service.UserService;
+import com.cha.product.model.Product;
+import com.cha.product.model.StringResponse;
+import com.cha.product.model.User;
+import com.cha.product.service.ProductService;
+import com.cha.product.service.TransactionService;
+import com.cha.product.service.UserService;
 
 @RestController
 public class AdminController {

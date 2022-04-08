@@ -1,4 +1,4 @@
-package com.cha.performanceappraisal.model;
+package com.cha.product.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

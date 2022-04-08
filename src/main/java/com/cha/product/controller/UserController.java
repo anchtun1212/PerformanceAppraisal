@@ -1,4 +1,4 @@
-package com.cha.performanceappraisal.controller;
+package com.cha.product.controller;
 
 import java.security.Principal;
 import java.time.LocalDateTime;
@@ -13,12 +13,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cha.performanceappraisal.model.Role;
-import com.cha.performanceappraisal.model.Transaction;
-import com.cha.performanceappraisal.model.User;
-import com.cha.performanceappraisal.service.ProductService;
-import com.cha.performanceappraisal.service.TransactionService;
-import com.cha.performanceappraisal.service.UserService;
+import com.cha.product.model.Role;
+import com.cha.product.model.Transaction;
+import com.cha.product.model.User;
+import com.cha.product.service.ProductService;
+import com.cha.product.service.TransactionService;
+import com.cha.product.service.UserService;
 
 @RestController
 public class UserController {

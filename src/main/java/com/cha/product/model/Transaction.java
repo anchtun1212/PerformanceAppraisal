@@ -1,4 +1,4 @@
-package com.cha.performanceappraisal.model;
+package com.cha.product.model;
 
 import java.time.LocalDateTime;
 

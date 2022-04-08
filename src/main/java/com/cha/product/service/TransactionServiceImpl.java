@@ -1,4 +1,4 @@
-package com.cha.performanceappraisal.service;
+package com.cha.product.service;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cha.performanceappraisal.model.Transaction;
-import com.cha.performanceappraisal.repository.TransactionRepository;
+import com.cha.product.model.Transaction;
+import com.cha.product.repository.TransactionRepository;
 
 @Service
 @Transactional

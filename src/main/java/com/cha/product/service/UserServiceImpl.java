@@ -1,13 +1,12 @@
-package com.cha.performanceappraisal.service;
+package com.cha.product.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.cha.performanceappraisal.model.User;
-import com.cha.performanceappraisal.repository.UserRepository;
+import com.cha.product.model.User;
+import com.cha.product.repository.UserRepository;
 
 @Service
 public class UserServiceImpl implements UserService {

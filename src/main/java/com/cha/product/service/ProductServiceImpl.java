@@ -1,12 +1,12 @@
-package com.cha.performanceappraisal.service;
+package com.cha.product.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cha.performanceappraisal.model.Product;
-import com.cha.performanceappraisal.repository.ProductRepository;
+import com.cha.product.model.Product;
+import com.cha.product.repository.ProductRepository;
 
 @Service
 public class ProductServiceImpl implements ProductService {

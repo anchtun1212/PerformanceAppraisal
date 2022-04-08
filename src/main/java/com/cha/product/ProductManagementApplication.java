@@ -1,13 +1,13 @@
-package com.cha.performanceappraisal;
+package com.cha.product;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PerformanceAppraisalApplication {
+public class ProductManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PerformanceAppraisalApplication.class, args);
+		SpringApplication.run(ProductManagementApplication.class, args);
 	}
 
 }

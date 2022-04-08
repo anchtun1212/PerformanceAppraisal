@@ -1,10 +1,10 @@
-package com.cha.performanceappraisal.repository;
+package com.cha.product.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.cha.performanceappraisal.model.User;
+import com.cha.product.model.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
 

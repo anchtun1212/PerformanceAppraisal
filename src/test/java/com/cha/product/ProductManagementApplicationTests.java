@@ -1,10 +1,10 @@
-package com.cha.performanceappraisal;
+package com.cha.product;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PerformanceAppraisalApplicationTests {
+class ProductManagementApplicationTests {
 
 	@Test
 	void contextLoads() {
