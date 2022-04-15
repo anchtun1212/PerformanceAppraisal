@@ -23,16 +23,16 @@ import io.jsonwebtoken.SignatureAlgorithm;
 @Component
 public class JwtTokenProvider {
 
-	@Value("$(app.jwt.secret)")
+	@Value("${app.jwt.secret}")
 	private String jwtSecret;
 
-	@Value("$(app.jwt.token.prefix)")
+	@Value("${app.jwt.token.prefix}")
 	private String jwtTokenPrefix;
 
-	@Value("$(app.jwt.header.string)")
+	@Value("${app.jwt.header.string}")
 	private String jwtHeaderString;
 
-	@Value("$(app.jwt.expiration-in-ms)")
+	@Value("${app.jwt.expiration-in-ms}")
 	private Long jwtExpirationInMs;
 	
 	private final static String SPRING_DEFAULT_ROLE_PREFIX = "ROLE_";
