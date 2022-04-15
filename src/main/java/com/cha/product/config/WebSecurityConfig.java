@@ -14,11 +14,16 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+import com.cha.product.jwt.JwtAuthorizationFilter;
+import com.cha.product.jwt.JwtTokenProvider;
 import com.cha.product.model.Role;
 
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+	
+	@Autowired
+	private JwtTokenProvider jwtTokenProvider;
 	
 	@Autowired
 	private UserDetailsService userDetailsService;
@@ -48,6 +53,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 				.httpBasic().and()
 				// disable csrf (cross site request forgery)--possible attack
 				.csrf().disable();
+		
+		//jwt filter
+		http.addFilter(new JwtAuthorizationFilter(authenticationManager(), jwtTokenProvider));
 	}
 	
 	@Override
